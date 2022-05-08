@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui_InsertPageBeforeForcesNavigationBar.Page3"
+             NavigationPage.HasNavigationBar="False" NavigationPage.HasBackButton="False"
+             Title="Page3">
+    <StackLayout>
+        <Label Text="Welcome to Page 3"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+    <Button x:Name="Back" Text="Back" Clicked="Back_Clicked" HorizontalOptions="Center" />
+  </StackLayout>
+</ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui_InsertPageBeforeForcesNavigationBar.MainPage">
+
+  <ScrollView>
+    <VerticalStackLayout Spacing="25" Padding="30">
+
+      <Label 
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+      <Label 
+                Text="Open Page 3 and put the Page to before it."
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+
+      <Button 
+                Text="Go to Page 3"
+                FontAttributes="Bold"
+                SemanticProperties.Hint="Go to Page 3"
+                Clicked="OnGoToPage3"
+                HorizontalOptions="Center" />
+
+      <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                WidthRequest="250"
+                HeightRequest="310"
+                HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+  </ScrollView>
+</ContentPage>
